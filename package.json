@@ -1,0 +1,21 @@
+{
+  "name": "crud-node-express",
+  "version": "1.0.0",
+  "description": "In this assignment, you will write an Express app that provides GET endpoints to perform CRUD operations against MongoDB. You will program the assignment using Mongoose. You will also add a middleware function to maintain and print certain statistics.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Alec Moldovan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^4.2.0",
+    "mongoose": "^6.0.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
